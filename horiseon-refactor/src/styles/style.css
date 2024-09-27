@@ -38,4 +38,10 @@ h1 {
     margin: 0;
     align-items: center;
 }
-
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
