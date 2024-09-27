@@ -3,6 +3,7 @@ import Header from './components/header/header';
 import Img from './images/main.jpg';
 import Search from './components/searchOpt/search';
 import Online from './components/onlineRep/online';
+import Social from './components/socialMedia/social';
 import './styles/style.css';
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
     <div className='main'>
     <Search />
     <Online />
+    <Social />
     </div>
     </div>
   );
