@@ -50,6 +50,7 @@ p {
 }
 .main{
     display: flex;
+    flex-wrap: wrap;
 }
 .content-container{
     flex: 2;
@@ -77,4 +78,8 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
