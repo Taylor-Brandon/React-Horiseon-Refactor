@@ -4,10 +4,12 @@ import Img from './images/main.jpg';
 import Search from './components/searchOpt/search';
 import Online from './components/onlineRep/online';
 import Social from './components/socialMedia/social';
+import Benefits from './components/benefits/benefits';
 import './styles/style.css';
 
 export default function App() {
   return(
+    <div className='body'>
     <div>
     <Header />
     <img className="hero" src={Img} alt="digital marketing meeting img"></img>
@@ -15,6 +17,8 @@ export default function App() {
     <Search />
     <Online />
     <Social />
+    <Benefits />
+    </div>
     </div>
     </div>
   );
